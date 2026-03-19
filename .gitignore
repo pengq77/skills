@@ -1,0 +1,19 @@
+# Local development files
+.claude/
+samples/
+/brand-voice-discovery-report.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
