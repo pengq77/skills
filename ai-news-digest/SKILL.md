@@ -11,18 +11,22 @@ You are helping gather and summarize the latest AI news from both global and Chi
 
 ## Your Task
 
-Fetch and present the top 5 AI news stories from:
+Fetch and present the top 3-5 AI news stories from:
 1. **Global AI news** (international sources)
 2. **China AI news** (Chinese sources and developments)
+
+**CRITICAL REQUIREMENT**: Only include news from the **last 24-48 hours**. This is a daily digest, so older news should be filtered out. If you can't find 5 truly recent stories in a category, it's better to include fewer high-quality recent stories than to pad with older news.
 
 ## Search Strategy
 
 ### Global AI News
-Search for recent AI developments using queries like:
-- "latest AI news 2026"
-- "artificial intelligence breakthrough 2026"
-- "AI companies news today"
-- "OpenAI Claude Anthropic Google AI news"
+Search for **today's** and **yesterday's** AI developments using queries like:
+- "AI news today" or "AI news March 18 2026" (use actual current date)
+- "AI news last 24 hours"
+- "OpenAI Claude Anthropic Google AI announcement today"
+- "latest AI model release this week"
+
+**Important**: Always include the current date or "today" / "last 24 hours" in your search queries to get the freshest results.
 
 Focus on:
 - Major model releases (GPT, Claude, Gemini, etc.)
@@ -32,11 +36,13 @@ Focus on:
 - Industry adoption
 
 ### China AI News
-Search for China-specific AI developments using queries like:
-- "中国AI新闻 2026"
-- "百度 阿里 腾讯 AI"
-- "中国人工智能 最新进展"
-- "DeepSeek Kimi AI 新闻"
+Search for **today's** China-specific AI developments using queries like:
+- "中国AI新闻 今天" or "中国AI新闻 3月18日" (use actual current date)
+- "百度 阿里 腾讯 AI 最新"
+- "中国人工智能 24小时"
+- "DeepSeek Kimi 今日"
+
+**Important**: Use "今天", "今日", "24小时" in Chinese searches to get recent news only.
 
 Focus on:
 - Chinese AI companies (百度、阿里、腾讯、字节、DeepSeek、智谱、月之暗面)
@@ -60,12 +66,14 @@ Present the news in this format:
 **来源**: [Source name]
 **日期**: [Date]
 
-[2-3句中文总结，自然地保留英文技术术语如API、transformer、GPT等]
+[重要新闻写2-3段详细内容，包括背景、影响、具体细节等]
+
+[次要新闻写1段简要说明]
 
 ### 2. [下一条新闻标题]
 ...
 
-（继续5条国际新闻）
+（继续3-5条国际新闻，视当日新闻量而定）
 
 ## 🇨🇳 中国 AI 新闻
 
@@ -73,21 +81,19 @@ Present the news in this format:
 **来源**: [来源名称]
 **日期**: [日期]
 
-[2-3句中文总结]
+[重要新闻写2-3段详细内容，包括背景、影响、具体细节等]
+
+[次要新闻写1段简要说明]
 
 ### 2. [下一条新闻标题]
 ...
 
-（继续5条中国新闻）
+（继续3-5条中国新闻，视当日新闻量而定）
 
 ## 📌 今日看点
 
 - [用中文总结今日最重要的趋势和发展，2-3个要点]
 - [保持中文表达，仅在必要时保留英文专有名词]
-
----
-**信息来源**:
-- [以markdown链接形式列出所有来源]
 ```
 
 ## Quality Guidelines
@@ -98,29 +104,33 @@ Present the news in this format:
 - Note if a story is rumor vs. confirmed announcement
 
 ### Relevance
-- Focus on **recent news** (within last 24-48 hours ideally)
+- **MUST be from last 24-48 hours** - strictly filter out older news
 - Prioritize **significant developments** over minor updates
 - Balance between technical and business news
+- Better to have 3 truly recent stories than 5 stories with old news mixed in
 
 ### Clarity
 - **All output in Chinese** - headlines, summaries, highlights, everything
-- Keep summaries concise (2-3 sentences each)
+- **Important news**: Write 2-3 paragraphs with background, impact, and specific details
+- **Minor news**: Write 1 paragraph summary
 - Preserve English only for proper nouns (Anthropic, Google, 百度) and technical terms (API, GPT, transformer)
 - Include source and date for each item
 - Use natural Chinese expression, not translated English
+- **Do NOT include a sources section** at the end of the digest
 
 ### Coverage Balance
-- 5 global stories + 5 China stories
+- 3-5 global stories + 3-5 China stories (flexible based on what's actually new)
 - Mix of: model releases, company news, research, policy, applications
 - Avoid duplicating the same story between global and China sections
+- Quality over quantity - only include genuinely newsworthy items from last 1-2 days
 
 ## Search Tips
 
-1. **Use current date in searches**: Always include "2026" or "today" in your search queries
+1. **Use current date in searches**: Always include the actual date (e.g., "March 18 2026") or "today" / "last 24 hours"
 2. **Search multiple times**: Run 2-3 different search queries to get diverse results
-3. **Check both English and Chinese sources**: Use Chinese search terms for China news
-4. **Sort by recency**: Focus on the most recent results
-5. **Verify dates**: Ensure stories are actually from the last 1-2 days
+3. **Check both English and Chinese sources**: Use "今天", "今日", "24小时" for China news
+4. **Verify dates strictly**: Only include stories from the last 24-48 hours
+5. **Filter aggressively**: If a story is from 3+ days ago, skip it even if it seems important
 
 ## Example Opening
 
@@ -139,13 +149,16 @@ Present the news in this format:
 
 ## Important Notes
 
+- **时效性要求**: 只包含过去24-48小时内的新闻，这是每日简报，不是周报
 - **语言要求**: 全部输出必须使用中文，仅在必要时保留英文专有名词和技术术语
 - Always include the **date of execution** at the top
 - All headlines, summaries, and highlights in **Chinese**
+- **重要新闻详细报道**: 写2-3段，包括背景、影响、具体数据
+- **次要新闻简要报道**: 写1段概括
 - Preserve English only for brand names (OpenAI, Claude, 百度) and tech terms (API, GPT, LLM)
-- Always include **source links** at the bottom
-- Focus on **quality over quantity** - 5 good stories > 10 mediocre ones
-- If you can't find 5 stories in a category, it's okay to include fewer
+- **Do NOT include sources section** at the end
+- Focus on **quality over quantity** - 3 truly recent stories > 5 stories with old news
+- If you can't find enough stories from last 1-2 days, include fewer stories
 
 ---
 
