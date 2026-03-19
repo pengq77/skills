@@ -7,6 +7,8 @@ description: Fetch and summarize the top 5 AI news from both global and China so
 
 You are helping gather and summarize the latest AI news from both global and China sources.
 
+**IMPORTANT**: All output MUST be in Chinese (中文). Only preserve English for proper nouns (company/product names) and technical terms. This is a Chinese-language news digest.
+
 ## Your Task
 
 Fetch and present the top 5 AI news stories from:
@@ -44,45 +46,48 @@ Focus on:
 
 ## Output Format
 
-Present the news in this bilingual format:
+**CRITICAL**: ALL output must be in Chinese. Only preserve English for proper nouns (company names, product names) and technical terms within Chinese sentences.
+
+Present the news in this format:
 
 ```markdown
-# 📰 AI 新闻日报 | Daily AI News Digest
-**日期 Date**: YYYY-MM-DD
+# 📰 AI 新闻日报
+**日期**: YYYY-MM-DD
 
-## 🌍 国际 AI 新闻 | Global AI News
+## 🌍 国际 AI 新闻
 
-### 1. [Headline in English]
-**来源 Source**: [Source name]
-**日期 Date**: [Date]
+### 1. [中文标题，保留英文品牌名如Anthropic、Claude等]
+**来源**: [Source name]
+**日期**: [Date]
 
-[2-3 sentence summary in Chinese, with key English terms preserved]
+[2-3句中文总结，自然地保留英文技术术语如API、transformer、GPT等]
 
-### 2. [Next headline]
+### 2. [下一条新闻标题]
 ...
 
-(Continue for top 5 global news)
+（继续5条国际新闻）
 
-## 🇨🇳 中国 AI 新闻 | China AI News
+## 🇨🇳 中国 AI 新闻
 
-### 1. [Headline - can be Chinese or English]
-**来源 Source**: [Source name]
-**日期 Date**: [Date]
+### 1. [中文标题]
+**来源**: [来源名称]
+**日期**: [日期]
 
-[2-3 sentence summary in Chinese]
+[2-3句中文总结]
 
-### 2. [Next headline]
+### 2. [下一条新闻标题]
 ...
 
-(Continue for top 5 China news)
+（继续5条中国新闻）
 
-## 📌 今日看点 | Highlights
+## 📌 今日看点
 
-[2-3 bullet points of the most significant developments or trends from today's news]
+- [用中文总结今日最重要的趋势和发展，2-3个要点]
+- [保持中文表达，仅在必要时保留英文专有名词]
 
 ---
-**Sources**:
-- [List all source URLs as markdown links]
+**信息来源**:
+- [以markdown链接形式列出所有来源]
 ```
 
 ## Quality Guidelines
@@ -98,10 +103,11 @@ Present the news in this bilingual format:
 - Balance between technical and business news
 
 ### Clarity
+- **All output in Chinese** - headlines, summaries, highlights, everything
 - Keep summaries concise (2-3 sentences each)
-- Use bilingual format with Chinese summaries
-- Preserve English technical terms (Claude, GPT, transformer, API, etc.)
+- Preserve English only for proper nouns (Anthropic, Google, 百度) and technical terms (API, GPT, transformer)
 - Include source and date for each item
+- Use natural Chinese expression, not translated English
 
 ### Coverage Balance
 - 5 global stories + 5 China stories
@@ -133,12 +139,14 @@ Present the news in this bilingual format:
 
 ## Important Notes
 
+- **语言要求**: 全部输出必须使用中文，仅在必要时保留英文专有名词和技术术语
 - Always include the **date of execution** at the top
-- All summaries should be in **Chinese** (with English terms preserved)
+- All headlines, summaries, and highlights in **Chinese**
+- Preserve English only for brand names (OpenAI, Claude, 百度) and tech terms (API, GPT, LLM)
 - Always include **source links** at the bottom
 - Focus on **quality over quantity** - 5 good stories > 10 mediocre ones
 - If you can't find 5 stories in a category, it's okay to include fewer
 
 ---
 
-**Remember**: You're curating news for a bilingual tech professional who wants to stay informed about both global and China AI developments efficiently.
+**Remember**: You're curating news IN CHINESE for a bilingual tech professional who wants to stay informed about both global and China AI developments efficiently. Think in Chinese, write in Chinese, only keep English terms where natural.
