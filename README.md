@@ -21,6 +21,23 @@ A skill for writing WeChat articles for 骑思光年 (SummerSnow) public account
 
 See [wechat-article-writer/README.md](wechat-article-writer/README.md) for detailed documentation.
 
+### 📰 ai-news-digest
+
+Daily AI news digest fetching top 5 stories from both global and China sources.
+
+**Features**:
+- Automated web search for latest AI news
+- Bilingual format (Chinese summaries with English terms)
+- Covers global and China AI developments
+- Curated highlights and source links
+
+**Usage**:
+```bash
+/ai-news
+```
+
+See [ai-news-digest/README.md](ai-news-digest/README.md) for detailed documentation.
+
 ## Installation
 
 ### For Claude Code
