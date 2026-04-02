@@ -1,6 +1,6 @@
 ---
-name: wechat-article
-description: Write new WeChat articles for 骑思光年 (SummerSnow) following the established brand voice. Use when creating content about cycling, tech, DIY projects, or cross-cultural observations for Chinese-speaking audience.
+name: wechat-article-writer
+description: Write new WeChat articles for 骑思光年 (SummerSnow) following the established brand voice, then run a mandatory independent authenticity review. Use when creating content about cycling, tech, DIY projects, or cross-cultural observations for Chinese-speaking audience.
 ---
 
 # WeChat Article Writer for 骑思光年
@@ -95,6 +95,37 @@ Titles should be:
 - Can be in Chinese or English depending on what feels natural
 - Photos carry equal weight to text
 
+### 6. Final Independent Authenticity Check (Mandatory Last Step)
+
+After the article is drafted, switch to independent reviewer mode and audit the text as if you did not write it.
+
+**Non-negotiable guardrail**:
+- Never promise perfect stealth or guaranteed detector bypass.
+- Do not claim "any AI system won't detect this" because detector outcomes are inconsistent and uncertain.
+
+**Check A: Human Reader Plausibility**
+- Flag any paragraph that sounds templated, over-polished, or generic.
+- Confirm at least 5 concrete personal anchors (time, place, distance/spec, sensory detail, mishap/tradeoff).
+- Ensure sentence rhythm varies (mix short and medium sentences; avoid uniform paragraph cadence).
+- Keep one natural imperfection (uncertainty, correction, or self-deprecating aside) if it fits the story.
+
+**Check B: AI-Trace Risk Signals**
+- Remove repetitive transition scaffolding used mechanically (for example too many 不过/其实/另外 in sequence).
+- Replace abstract summary language with one concrete memory or observed detail.
+- Break list-like symmetry and repeated sentence openings.
+- Avoid over-complete explanations; leave natural human shorthand where context already supports it.
+
+**If either check fails**
+- Rewrite the weakest 20-30% with more lived details and less template-like structure.
+- Re-run Check A and Check B once before final delivery.
+
+**Output requirement**
+- Append a short "独立复核" section after the article:
+	- 人类读者真实感: High/Medium/Low + one-line reason
+	- AI痕迹风险: Low/Medium/High + one-line reason
+	- 已修正问题: up to 3 bullet points
+	- Remaining uncertainty: one line acknowledging detector unreliability
+
 ## Topic Pillars
 
 Content should fall within these areas:
@@ -117,6 +148,9 @@ Before finalizing, verify:
 - [ ] Light, humble closing
 - [ ] No marketing speak or excessive enthusiasm
 - [ ] No emoji characters
+- [ ] Independent authenticity review completed
+- [ ] Human reader plausibility assessed as High or Medium
+- [ ] AI-trace risk reduced and documented without guarantee claims
 
 ## Example Opening Patterns
 

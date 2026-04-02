@@ -11,7 +11,7 @@ This skill helps you write new articles that match the authentic, conversational
 ### In Claude Code
 
 ```bash
-/wechat-article
+/wechat-article-writer
 ```
 
 Then tell Claude what you want to write about, for example:
@@ -35,6 +35,10 @@ Same usage - invoke the skill and describe your topic.
    - Practical details in personal narrative
 5. **Creates title and photo captions** in your style
 6. **Ensures quality** against the brand voice checklist
+7. **Runs an independent authenticity review** as the final gate:
+   - Human reader plausibility check
+   - AI-trace risk scan and targeted rewrites
+   - Explicit uncertainty note (no guaranteed detector bypass claims)
 
 ## Files in This Skill
 
@@ -69,7 +73,7 @@ The skill works best for articles about:
 
 **Example 1**: Cycling trip
 ```
-/wechat-article
+/wechat-article-writer
 
 I rode from Seattle to Tacoma along the Green River Trail last Saturday,
 about 80km round trip. Started at 7am, took a coffee break at the halfway
@@ -78,7 +82,7 @@ point, and got back by 2pm. Beautiful fall weather.
 
 **Example 2**: Tech project
 ```
-/wechat-article
+/wechat-article-writer
 
 I just finished setting up a new mini PC for my home server. Spent the
 whole weekend figuring out Docker configs and Tailscale. Finally got
@@ -87,7 +91,7 @@ it working but made a lot of dumb mistakes along the way lol
 
 **Example 3**: Gear review
 ```
-/wechat-article
+/wechat-article-writer
 
 I've been riding my gravel bike for 6 months now and want to write about
 why it's become my only bike. Used it for commuting, weekend long rides,
@@ -104,5 +108,5 @@ If you want to adjust the voice over time:
 ---
 
 **Created**: 2026-03-18
-**Version**: 1.0
+**Version**: 1.1
 **Author**: Built from 5 sample articles and brand voice analysis
