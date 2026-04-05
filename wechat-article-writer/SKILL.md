@@ -17,6 +17,19 @@ Read file: .claude/brand-voice-guidelines.md
 
 This file contains all the essential voice attributes, language rules, and content structure templates.
 
+## How WeChat Distributes Articles
+
+Public accounts now run on a **subscription + recommendation + search + social** mixed model. Articles reach readers through four paths — not just existing followers:
+
+| Path | What drives it |
+|------|---------------|
+| **Subscription feed** | Followers who open their subscriptions |
+| **Recommendation feed** | Algorithm pushes to non-followers based on engagement signals |
+| **微信搜一搜** | Search within WeChat; knowledge/tutorial/comparison content works best |
+| **Social spread** | Shares to groups, Moments, friends; friend-♡ signals amplify further |
+
+Write every article to perform across all four paths. The algorithm reads: click-through rate, read completion, time spent, ♡/comments/shares, and social chain signals. Poor completion rate suppresses further distribution.
+
 ## Your Writing Process
 
 ### 1. Understand the Topic
@@ -33,6 +46,7 @@ Follow this template:
 - Start with a data point, observation, or context
 - Use first person ("今年..." "最近..." "根据...")
 - Set up why this topic matters now
+- **3-screen rule**: readers arriving from recommendation or search don't know you — answer within the first 3 screens: what is this about, what will I get, why read now. If the opening is too slow, they leave and the algorithm stops distributing.
 
 **Main Body (3-5 sections)**
 - Each section: bold header → 1-3 paragraphs → photos
@@ -43,6 +57,10 @@ Follow this template:
 **Closing (1-2 paragraphs)**
 - Brief personal reflection
 - Light humor or forward-looking sentiment
+- **End with a low-friction engagement prompt** — a specific question or soft call-to-action, not just "欢迎关注". Examples:
+  - "你现在用啥工具替代X？"
+  - "觉得有用的话，点个♡，以后多做这一类"
+  - "这个方案你会考虑吗，还是觉得太麻烦了？"
 - Optional disclaimer: "作者提示 个人观点，仅供参考"
 
 ### 3. Apply Voice Rules
@@ -77,25 +95,41 @@ Follow this template:
 
 ### 4. Title Creation
 
+**Process: draft 10 candidates, then pick 1.** Most first-draft titles are too "author-perspective" — drafting 10 forces you to find one that works from the reader's side.
+
 Titles should be:
-- Descriptive and specific
+- Descriptive and specific, not vague ("聊聊最近的想法" loses to "为什么我把 OpenClaw 换成了 Claude Code")
 - Natural mix of Chinese and English
 - Personal statement or observation
-- Not clickbaity
+- Not clickbaity — but must pass both tests:
+  - **Click test**: would a stranger want to open this?
+  - **Search test**: does it contain at least one keyword someone might actually type in 微信搜一搜?
 
 **Examples**:
 - "2025 骑行记录，继续在路上"
 - "雨季每日最佳通勤方式: 轻轨+自行车"
 - "总算把OpenClaw 搭起来了，终于知道大家为啥这么激动了"
 
-### 5. Photo Captions
+### 5. Shareability Design
+
+Before finalizing the draft, answer this question: **why would a reader forward this?**
+
+There are four valid reasons — the article should clearly fit at least one:
+- **Practical**: it saves time, solves a problem, or teaches something useful (清单、教程、避坑)
+- **Opinion**: it takes a real stance that readers want to signal agreement with
+- **Information aggregation**: it saves the reader from doing their own research
+- **Identity expression**: forwarding it lets the reader say "this is me" or "this is my situation"
+
+If none of these apply, the article may be interesting to you but won't spread. Consider whether the angle or framing can be adjusted before finalizing.
+
+### 6. Photo Captions
 
 - One sentence per photo
 - Describe what's shown or add context
 - Can be in Chinese or English depending on what feels natural
 - Photos carry equal weight to text
 
-### 6. Final Independent Authenticity Check (Mandatory Last Step)
+### 7. Final Independent Authenticity Check (Mandatory Last Step)
 
 After the article is drafted, switch to independent reviewer mode and audit the text as if you did not write it.
 
@@ -145,9 +179,12 @@ Before finalizing, verify:
 - [ ] Practical info embedded in personal story
 - [ ] Conversational tone (not formal)
 - [ ] Photos indicated with captions
-- [ ] Light, humble closing
 - [ ] No marketing speak or excessive enthusiasm
 - [ ] No emoji characters
+- [ ] **Title is specific, not vague, and includes at least one searchable keyword**
+- [ ] **Opening answers what/why/now within the first 3 screens**
+- [ ] **Article has one clear shareable reason (practical / opinion / aggregation / identity)**
+- [ ] **Closing ends with a low-friction engagement prompt, not just "欢迎关注"**
 - [ ] Independent authenticity review completed
 - [ ] Human reader plausibility assessed as High or Medium
 - [ ] AI-trace risk reduced and documented without guarantee claims
